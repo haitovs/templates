@@ -1,0 +1,98 @@
+/* General Contact Section Styling */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light grey background for the section */
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 34px;
+    color: #1a1a1a; /* Dark text color */
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Contact Information */
+.contact-info {
+    background-color: #ffffff; /* White background for the contact info */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    width: 350px; /* Fixed width for contact info */
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    color: #ff5722; /* Deep orange for headings */
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    width: 350px; /* Fixed width for the form */
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ff9800; /* Orange button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

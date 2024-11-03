@@ -1,0 +1,132 @@
+/* General Community Page Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Community Intro Section */
+.community-intro {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.community-intro h2 {
+    font-size: 36px;
+    color: #00eaff;
+    margin-bottom: 10px;
+}
+
+.community-intro p {
+    font-size: 18px;
+    color: #cccccc;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Forums Section */
+.forums {
+    padding: 50px 20px;
+    background-color: #1d1d1d;
+    text-align: center;
+    color: #ffffff;
+}
+
+.forums h3 {
+    font-size: 30px;
+    color: #00eaff;
+    margin-bottom: 20px;
+}
+
+.forum-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forum-card {
+    background-color: #252525;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.forum-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.forum-card h4 {
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 10px;
+}
+
+.forum-card p {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+/* Member Spotlight Section */
+.member-spotlight {
+    padding: 50px 20px;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+.member-spotlight h3 {
+    font-size: 30px;
+    color: #00eaff;
+    margin-bottom: 20px;
+}
+
+.member-spotlight p {
+    font-size: 18px;
+    color: #cccccc;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.spotlight-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member-card {
+    background-color: #252525;
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.member-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.member-card h4 {
+    font-size: 20px;
+    color: #00eaff;
+    margin-bottom: 10px;
+}
+
+.member-card p {
+    font-size: 16px;
+    color: #cccccc;
+}

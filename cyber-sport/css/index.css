@@ -1,0 +1,91 @@
+/* Hero Section Custom Styling */
+.hero {
+    background-image: url('../images/esports-hero.jpg'); /* Update with actual path */
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h2 {
+    background-color: #c1c1c1cc;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #00c3ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 195, 255, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 195, 255, 0.5);
+}
+
+/* Highlights Section Custom Styling */
+.highlights h2 {
+    font-size: 30px;
+    color: #00c3ff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.highlight-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1f1f1f;
+    width: 100%;
+    max-width: 320px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #00c3ff;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.5;
+}

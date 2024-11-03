@@ -1,0 +1,20 @@
+/* About Page Styles */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #121212;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #e0e0e0;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}

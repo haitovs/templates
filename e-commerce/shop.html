@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop - E-commerce Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- General CSS for all pages -->
+    <link rel="stylesheet" href="css/shop.css" />
+    <!-- Specific CSS for Shop Page -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <h1>ShopSmart</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Shop Container Section -->
+    <div class="shop-container">
+      <!-- Sidebar for Filters -->
+      <aside class="sidebar">
+        <h2>Filters</h2>
+    
+        <!-- Category Filter -->
+        <div class="filter">
+            <label>Category</label><br />
+            <input type="checkbox" /> Electronics<br />
+            <input type="checkbox" /> Clothing<br />
+            <input type="checkbox" /> Home & Garden<br />
+            <input type="checkbox" /> Beauty & Health<br />
+            <input type="checkbox" /> Sports & Outdoors<br />
+        </div>
+    
+        <!-- Price Range Filter -->
+        <div class="filter">
+            <label>Price Range</label><br />
+            <input type="checkbox" /> Under $25<br />
+            <input type="checkbox" /> $25 - $50<br />
+            <input type="checkbox" /> $50 - $100<br />
+            <input type="checkbox" /> $100 - $200<br />
+            <input type="checkbox" /> Over $200<br />
+        </div>
+    
+        <!-- Brand Filter -->
+        <div class="filter">
+            <label>Brand</label><br />
+            <input type="checkbox" /> Nike<br />
+            <input type="checkbox" /> Apple<br />
+            <input type="checkbox" /> Samsung<br />
+            <input type="checkbox" /> Sony<br />
+            <input type="checkbox" /> Adidas<br />
+        </div>
+    
+        <!-- Ratings Filter -->
+        <div class="filter">
+            <label>Ratings</label><br />
+            <input type="checkbox" /> 4 stars & up<br />
+            <input type="checkbox" /> 3 stars & up<br />
+            <input type="checkbox" /> 2 stars & up<br />
+            <input type="checkbox" /> 1 star & up<br />
+        </div>
+    
+        <!-- Discount Offers Filter -->
+        <div class="filter">
+            <label>Discount Offers</label><br />
+            <input type="checkbox" /> 10% off or more<br />
+            <input type="checkbox" /> 20% off or more<br />
+            <input type="checkbox" /> 30% off or more<br />
+            <input type="checkbox" /> 50% off or more<br />
+        </div>
+    </aside>
+    
+
+      <!-- Product Area -->
+      <div class="product-area">
+        <h2>Available Products</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="images/product1.jpg" alt="Product 1" />
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <a href="product-detail.html" class="btn">View Details</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product2.jpg" alt="Product 2" />
+            <h3>Product 2</h3>
+            <p>$29.99</p>
+            <a href="product-detail.html" class="btn">View Details</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product3.jpg" alt="Product 3" />
+            <h3>Product 3</h3>
+            <p>$39.99</p>
+            <a href="product-detail.html" class="btn">View Details</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product4.jpg" alt="Product 4" />
+            <h3>Product 4</h3>
+            <p>$49.99</p>
+            <a href="product-detail.html" class="btn">View Details</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product5.jpg" alt="Product 5" />
+            <h3>Product 5</h3>
+            <p>$59.99</p>
+            <a href="product-detail.html" class="btn">View Details</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product6.jpg" alt="Product 6" />
+            <h3>Product 6</h3>
+            <p>$69.99</p>
+            <a href="product-detail.html" class="btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 ShopSmart. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
