@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #111;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    color: #0f0;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #0f0;
+  }
+  
+  footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .content-section {
+    margin: 40px 0;
+  }
+  
+  h1, h2, h3 {
+    color: #0f0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f0;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0c0;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #latest-news article, .game {
+    margin-bottom: 20px;
+  }
+  
+  #latest-news h2, #featured-games h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #latest-news h3, .game h3 {
+    font-size: 1.5em;
+  }
+  
+  .game {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .game img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .game-info {
+    flex: 1;
+  }
+  

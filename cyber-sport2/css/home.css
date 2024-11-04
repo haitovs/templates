@@ -1,0 +1,47 @@
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #hero h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #0f0;
+  }
+
+  #hero div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  #hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #0f0;
+  }
+  
+  #latest-news, #featured-games {
+    margin: 40px 0;
+  }
+  
+  #latest-news article, .game {
+    margin-bottom: 20px;
+  }
+  
+  #latest-news h2, #featured-games h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #latest-news h3, .game h3 {
+    font-size: 1.5em;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
