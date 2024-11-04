@@ -1,0 +1,85 @@
+.hero {
+    background-image: url('../images/bg.jpg'); /* Dynamic hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 8px solid #ff5733; /* Orange border for style */
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for text readability */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffd700; /* Gold */
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ffc107; /* Slightly darker gold */
+}
+
+.highlights {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.highlights h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff5733; /* Vivid orange */
+}
+
+.highlight-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.highlight-item:hover {
+    transform: translateY(-5px);
+}
+
+.highlight-item img {
+    width: 100%;
+    height: auto;
+}
+
+.highlight-item h3 {
+    color: #ff5733;
+    margin: 15px 0 5px;
+}
+
+.highlight-item p {
+    padding: 0 15px 15px;
+}
+
+@media (max-width: 768px) {
+    .highlight-item {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

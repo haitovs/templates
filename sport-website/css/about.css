@@ -1,0 +1,24 @@
+.about-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background for the about section */
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ff5733; /* Vivid orange */
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.about-section h3 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 30px;
+}
