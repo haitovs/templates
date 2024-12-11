@@ -1,7 +1,3 @@
-Here’s a sample README file for your GitHub repository:
-
----
-
 # Website Templates Collection
 
 This repository contains 15+ website templates designed for various industries and use cases. Each template is built using only HTML and CSS, making them lightweight and easy to customize. These templates are ideal for developers looking for a starting point for their projects or for educational purposes.
@@ -78,6 +74,3 @@ Contributions are welcome! Feel free to fork this repository, make changes, and 
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute these templates.
 
----
-
-This README file provides a clear structure for showcasing your templates, guiding users on how to use them, and inviting contributions. Customize it further if needed!
